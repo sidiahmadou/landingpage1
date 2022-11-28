@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <nav class="relative container mx-auto py-4">
+        <div class="flex justify-between items-center mx-10 md:mr-20 ">
+            <div>
+                <a class="text-xl font-bold" href="#">Landing</a>
+            </div>
+            <div id="navbar" class="hidden absolute top-full right-0 z-10 lg:block lg:static ">
+                <div class="bg-lightRose w-[500px] flex flex-col py-8 items-center space-y-4 lg:bg-transparent	 lg:p-0 lg:flex-row lg:space-y-0 lg:space-x-4 ">
+                    <ul class="flex flex-col space-y-4 lg:flex-row lg:space-y-0 lg:space-x-4">
+                        <li>
+                            <a class="font-bold" href="#hero">Product</a>
+                        </li>
+                        <li>
+                            <a class="font-bold" href="#process">Process</a>
+                        </li>
+                        <li>
+                            <a class="font-bold" href="#story">Story</a>
+                        </li>
+                        <li>
+                            <a class="font-bold" href="#services">Services</a>
+                        </li>
+                        <li>
+                            <a class="font-bold" href="#faq">Faq</a>
+                        </li>
+                    </ul>
+                    <a class="p-2 rounded-md bg-black text-white" href="#"> Subscribe </a>
+                </div>
+            </div>
+            <svg id="menu" class="w-6 h-6 lg:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+                                       
+        </div>
+    </nav>
+    <section id="hero" class="bg-gradient-to-r from-veryLightRose to-lightGray ">
+        <div class="w-full container mx-auto flex flex-col space-y-10 items-center md:flex-row md:justify-around md:space-y-0">
+            <!--left-->
+            <div class="flex flex-col items-center space-y-6 md:items-start">
+                <h1 class="max-w-sm font-bold text-3xl text-center md:text-left md:text-4xl">
+                    Academy of your Business
+                </h1>
+                <p class="text-center max-w-sm md:text-left ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dolore?
+                </p>
+                <div class="flex space-x-6 items-center">
+                    <a class="p-2 bg-lightRose rounded-md" href="#">Get Started</a>
+                    <a href="#">
+                        <div class="flex space-x-2 items-center">
+                            <div class="p-2 rounded-full bg-black">
+                                <svg class="w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+                                </svg>
+                            </div>
+                            <span>view demo</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!--right-->
+            <div>
+                <div class="w-60 h-96 bg-lightDark relative ">
+                    <div class="absolute top-1/2 -translate-y-1/2 md:-left-1/2">
+                        <div class=" w-60 h-60 bg-lightYellow rounded-full relative">
+                            <img class="object-contain" src="./img/student.png" alt="" >
+                            <div class="p-2 rounded-md bg-black text-white absolute -top-2 left-0 font-bold text-3xl text-center">6k<span class="block font-normal text-sm">clients</span></div>
+                            <div class="rounded-md text-black font-bold bg-white p-2 absolute bottom-4 left-0">
+                                <h3>Bring your ideas to life</h3>
+                            </div>
+                            <div class="rounded-md text-black bg-white p-2 absolute -top-2 md:bottom-10 md:top-auto -right-4 font-bold text-3xl text-center">
+                                40% <span class="block font-normal text-sm">Market</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="process">
+        <div class="container flex flex-col items-center mx-auto py-10">
+            <h2 class="pb-4 font-bold text-center text-2xl md:text-4xl">
+                The process we follow
+            </h2>
+            <p class="max-w-sm pb-4 text-center md:pb-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, dolor.</p>
+            <div class="w-full flex flex-col items-center space-y-6 md:flex-row md:justify-around md:space-y-0 md:py-4">
+                <div class="flex flex-col items-center">
+                    <svg class="w-10 p-2 bg-lightBlue rounded-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+                        <path d="M21.731 2.269a2.625 2.625 0 00-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 000-3.712zM19.513 8.199l-3.712-3.712-8.4 8.4a5.25 5.25 0 00-1.32 2.214l-.8 2.685a.75.75 0 00.933.933l2.685-.8a5.25 5.25 0 002.214-1.32l8.4-8.4z" />
+                        <path d="M5.25 5.25a3 3 0 00-3 3v10.5a3 3 0 003 3h10.5a3 3 0 003-3V13.5a.75.75 0 00-1.5 0v5.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5V8.25a1.5 1.5 0 011.5-1.5h5.25a.75.75 0 000-1.5H5.25z" />
+                      </svg>
+                      
+                    <h3 class="font-bold">
+                        Business idea
+                    </h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <svg class="w-10 p-2 bg-lightYellow rounded-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+                        <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 000-1.5h-3.75V6z" clipRule="evenodd" />
+                      </svg>                      
+                    <h3 class="font-bold">
+                        Planning
+                    </h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <svg class="w-10 p-2 bg-lightRose rounded-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+                        <path d="M6 12a.75.75 0 01-.75-.75v-7.5a.75.75 0 111.5 0v7.5A.75.75 0 016 12zM18 12a.75.75 0 01-.75-.75v-7.5a.75.75 0 011.5 0v7.5A.75.75 0 0118 12zM6.75 20.25v-1.5a.75.75 0 00-1.5 0v1.5a.75.75 0 001.5 0zM18.75 18.75v1.5a.75.75 0 01-1.5 0v-1.5a.75.75 0 011.5 0zM12.75 5.25v-1.5a.75.75 0 00-1.5 0v1.5a.75.75 0 001.5 0zM12 21a.75.75 0 01-.75-.75v-7.5a.75.75 0 011.5 0v7.5A.75.75 0 0112 21zM3.75 15a2.25 2.25 0 104.5 0 2.25 2.25 0 00-4.5 0zM12 11.25a2.25 2.25 0 110-4.5 2.25 2.25 0 010 4.5zM15.75 15a2.25 2.25 0 104.5 0 2.25 2.25 0 00-4.5 0z" />
+                      </svg>
+                      
+                    <h3 class="font-bold">
+                        Develop
+                    </h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <svg class="w-10 p-2 bg-darkGray rounded-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+                        <path fillRule="evenodd" d="M5.625 1.5H9a3.75 3.75 0 013.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 013.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 01-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875zM9.75 17.25a.75.75 0 00-1.5 0V18a.75.75 0 001.5 0v-.75zm2.25-3a.75.75 0 01.75.75v3a.75.75 0 01-1.5 0v-3a.75.75 0 01.75-.75zm3.75-1.5a.75.75 0 00-1.5 0V18a.75.75 0 001.5 0v-5.25z" clipRule="evenodd" />
+                        <path d="M14.25 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0016.5 7.5h-1.875a.375.375 0 01-.375-.375V5.25z" />
+                      </svg>
+                      
+                    <h3 class="font-bold">
+                        Business structure
+                    </h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="story">
+        <div class=" container text-white flex flex-col mx-auto md:flex-row bg-lightDark md:space-x-4 md:h-{450} ">
+            <div class="w-full md:w-1/3 md:h-{450}">
+                <img src="./img/student.jpg" alt="">
+            </div>
+            <div class="flex w-full items-center md:w-2/3">
+                <div class="p-8 w-full flex flex-col items-center space-y-4 md:w-2/3 md:items-start "> 
+                    <h2 class="font-bold text-lg">
+                        Our Story
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus alias, natus, laborum, ipsa facilis error eum tempora laboriosam ad commodi ratione fugiat? Commodi, saepe expedita!
+                    </p>
+                    <a class="p-2 bg-lightRose rounded-md text-black" href="#">Get Started</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container flex flex-col items-center mx-auto py-10">
+            <h2 class="pb-4 font-bold text-center text-2xl md:text-4xl">
+                Services we provide
+            </h2>
+            <p class="max-w-sm pb-4 text-center md:pb-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, dolor.</p>
+            <div class="px-2 grid grid-cols-2 gap-4 md:grid-cols-4">
+                <div class="bg-lightRose text-black flex flex-col items-center space-y-4 p-4 rounded-md">
+                    <h4 class="font-bold">Service </h4>
+                    <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, veniam?</p>
+                    <a class="p-2 text-center bg-white font-bold rounded-md" href="#">Get started</a>
+                </div>
+                <div class="bg-lightBlue text-black flex flex-col items-center space-y-4 p-4 rounded-md">
+                    <h4 class="font-bold">Service </h4>
+                    <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, veniam?</p>
+                    <a class="p-2 text-center bg-white font-bold rounded-md" href="#">Get started</a>
+                </div>
+                <div class="bg-lightYellow text-black flex flex-col items-center space-y-4 p-4 rounded-md">
+                    <h4 class="font-bold">Service </h4>
+                    <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, veniam?</p>
+                    <a class="p-2 text-center bg-white font-bold rounded-md" href="#">Get started</a>
+                </div>
+                <div class="bg-lightRose text-black flex flex-col items-center space-y-4 p-4 rounded-md">
+                    <h4 class="font-bold">Service </h4>
+                    <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, veniam?</p>
+                    <a class="p-2 text-center bg-white font-bold rounded-md" href="#">Get started</a>
+                </div>
+                <div class="bg-lightBlue text-black flex flex-col items-center space-y-4 p-4 rounded-md">
+                    <h4 class="font-bold">Service </h4>
+                    <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, veniam?</p>
+                    <a class="p-2 text-center bg-white font-bold rounded-md" href="#">Get started</a>
+                </div>
+                <div class="bg-lightYellow text-black flex flex-col items-center space-y-4 p-4 rounded-md">
+                    <h4 class="font-bold">Service </h4>
+                    <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, veniam?</p>
+                    <a class="p-2 text-center bg-white font-bold rounded-md" href="#">Get started</a>
+                </div>
+                <div class="bg-lightRose text-black flex flex-col items-center space-y-4 p-4 rounded-md">
+                    <h4 class="font-bold">Service </h4>
+                    <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, veniam?</p>
+                    <a class="p-2 text-center bg-white font-bold rounded-md" href="#">Get started</a>
+                </div>
+                <div class="bg-lightBlue text-black flex flex-col items-center space-y-4 p-4 rounded-md">
+                    <h4 class="font-bold">Service </h4>
+                    <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, veniam?</p>
+                    <a class="p-2 text-center bg-white font-bold rounded-md" href="#">Get started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faq" class="py-4 container mx-auto flex flex-col items-center md:py-8">
+        <div class="flex flex-col items-center ">
+            <h2 class="pb-4 font-bold text-center text-2xl md:text-4xl md:text-left">
+                Frequently Asked Questions
+            </h2>
+            <p class="max-w-sm pb-4 text-center md:pb-10 md:text-left">If you have any questions, contact us.</p>
+        </div>
+        <div class="w-2/3 flex flex-col space-y-6">
+            <div class=" questions bg-lightDark text-white rounded-md p-4">
+                <div class="w-full flex justify-between items-center">
+                    <h2>Lorem, ipsum.</h2>
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
+                </div>
+                <p id="question1" class=" py-4 text-sm hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aliquam voluptatum dolorum perferendis laborum ipsum, commodi in corrupti vero quos deleniti harum ex minus animi, neque quibusdam quis, vel earum!</p>
+            </div>
+            <div class=" questions bg-lightDark text-white rounded-md p-4 p-4">
+                <div class="w-full flex justify-between items-center">
+                    <h2>Lorem, ipsum.</h2>
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
+                </div>
+                <p id="question2" class=" py-4 text-sm hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aliquam voluptatum dolorum perferendis laborum ipsum, commodi in corrupti vero quos deleniti harum ex minus animi, neque quibusdam quis, vel earum!</p>
+            </div>
+            <div class=" questions bg-lightDark text-white rounded-md p-4 p-4">
+                <div class="w-full flex justify-between items-center">
+                    <h2>Lorem, ipsum.</h2>
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
+                </div>
+                <p id="question3" class=" py-4 text-sm hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aliquam voluptatum dolorum perferendis laborum ipsum, commodi in corrupti vero quos deleniti harum ex minus animi, neque quibusdam quis, vel earum!</p>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-lightDark py-4 text-white">
+        <div class="container mx-auto flex flex-col items-center space-y-4 md:flex-row md:justify-between">    
+            <div class="flex flex-col items-center space-y-4 md:items-start">
+                <h3 class="font-bold">Subscribe to news letter</h3>
+                <input class="p-2 rounded-md text-black" type="text" placeholder="Your email">
+                <input class="p-2 text-black text-center bg-lightRose font-bold rounded-md" type="button" value="Subscribe">
+            </div>
+            <div class="flex flex-col space-y-2 md:space-y-4">
+                <h3 class="font-bold">Menu</h3>
+                <a class="text-sm md:text-md" href="#">Services</a>
+                <a class="text-sm md:text-md" href="#">Works</a>
+                <a class="text-sm md:text-md" href="#">About</a>
+            </div>
+            <div class="flex flex-col space-y-2 md:space-y-4">
+                <h3 class="font-bold">Connect</h3>
+                <a href="#">Linkedin</a>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+            </div>
+
+            </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
